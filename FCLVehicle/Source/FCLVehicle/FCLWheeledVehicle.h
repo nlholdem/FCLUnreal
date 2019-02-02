@@ -9,12 +9,13 @@
 /**
  * 
  */
-UCLASS()
+UCLASS(Blueprintable)
 class FCLVEHICLE_API AFCLWheeledVehicle : public AWheeledVehicle
 {
 	GENERATED_BODY()
 	
-	
+public: 
+	AFCLWheeledVehicle();
 	
 	
 };

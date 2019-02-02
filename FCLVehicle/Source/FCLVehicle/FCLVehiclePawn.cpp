@@ -29,6 +29,9 @@ const FName AFCLVehiclePawn::LookRightBinding("LookRight");
 
 AFCLVehiclePawn::AFCLVehiclePawn()
 {
+	UE_LOG(LogTemp, Warning, TEXT("*** Constructing FCL_VehiclePawn!!"));
+
+
 	// Car mesh
 	static ConstructorHelpers::FObjectFinder<USkeletalMesh> CarMesh(TEXT("/Game/Vehicle/Sedan/Sedan_SkelMesh.Sedan_SkelMesh"));
 	GetMesh()->SetSkeletalMesh(CarMesh.Object);
