@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeLite_Project Name="MayaLiveLinkPlugin2017">
+  <VirtualDirectory Name="Engine">
+    <VirtualDirectory Name="Engine">
+      <VirtualDirectory Name="Source">
+        <VirtualDirectory Name="Programs">
+          <VirtualDirectory Name="MayaLiveLinkPlugin">
+            <File Name="/home/paul/Dev/UnrealEngine/Engine/Source/Programs/MayaLiveLinkPlugin/MayaLiveLinkPlugin2017.Target.cs" />
+            <File Name="/home/paul/Dev/UnrealEngine/Engine/Source/Programs/MayaLiveLinkPlugin/MayaLiveLinkPlugin.cpp" />
+            <File Name="/home/paul/Dev/UnrealEngine/Engine/Source/Programs/MayaLiveLinkPlugin/MayaLiveLinkPlugin2016.Build.cs" />
+            <File Name="/home/paul/Dev/UnrealEngine/Engine/Source/Programs/MayaLiveLinkPlugin/MayaLiveLinkPlugin2016.Target.cs" />
+            <File Name="/home/paul/Dev/UnrealEngine/Engine/Source/Programs/MayaLiveLinkPlugin/MayaLiveLinkPlugin2017.Build.cs" />
+            <File Name="/home/paul/Dev/UnrealEngine/Engine/Source/Programs/MayaLiveLinkPlugin/MayaLiveLinkPlugin2018.Build.cs" />
+            <File Name="/home/paul/Dev/UnrealEngine/Engine/Source/Programs/MayaLiveLinkPlugin/MayaLiveLinkPlugin2018.Target.cs" />
+          </VirtualDirectory>
+        </VirtualDirectory>
+      </VirtualDirectory>
+    </VirtualDirectory>
+  </VirtualDirectory>
+  <Settings>
+    <Configuration Name="Debug">
+      <General WorkingDirectory="/home/paul/Dev/UnrealEngine/Engine/Binaries/Linux" Command="./MayaLiveLinkPlugin2017-Linux-Debug" />
+      <General WorkingDirectory="/home/paul/Dev/UnrealEngine/Engine/Binaries/Linux" Command="./MayaLiveLinkPlugin2017-Linux-Debug" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/paul/Dev/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe MayaLiveLinkPlugin2017 Linux Debug -project="/home/paul/Documents/Unreal Projects/FCLVehicle/FCLVehicle.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe MayaLiveLinkPlugin2017 Linux Debug -project="/home/paul/Documents/Unreal Projects/FCLVehicle/FCLVehicle.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe MayaLiveLinkPlugin2017 Linux Debug -project="/home/paul/Documents/Unreal Projects/FCLVehicle/FCLVehicle.uproject" -clean
+mono UnrealBuildTool.exe MayaLiveLinkPlugin2017 Linux Debug -project="/home/paul/Documents/Unreal Projects/FCLVehicle/FCLVehicle.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="DebugGame">
+      <General WorkingDirectory="/home/paul/Dev/UnrealEngine/Engine/Binaries/Linux" Command="./MayaLiveLinkPlugin2017-Linux-DebugGame" />
+      <General WorkingDirectory="/home/paul/Dev/UnrealEngine/Engine/Binaries/Linux" Command="./MayaLiveLinkPlugin2017-Linux-DebugGame" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/paul/Dev/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe MayaLiveLinkPlugin2017 Linux DebugGame -project="/home/paul/Documents/Unreal Projects/FCLVehicle/FCLVehicle.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe MayaLiveLinkPlugin2017 Linux DebugGame -project="/home/paul/Documents/Unreal Projects/FCLVehicle/FCLVehicle.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe MayaLiveLinkPlugin2017 Linux DebugGame -project="/home/paul/Documents/Unreal Projects/FCLVehicle/FCLVehicle.uproject" -clean
+mono UnrealBuildTool.exe MayaLiveLinkPlugin2017 Linux DebugGame -project="/home/paul/Documents/Unreal Projects/FCLVehicle/FCLVehicle.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="Development">
+      <General WorkingDirectory="/home/paul/Dev/UnrealEngine/Engine/Binaries/Linux" Command="./MayaLiveLinkPlugin2017" />
+      <General WorkingDirectory="/home/paul/Dev/UnrealEngine/Engine/Binaries/Linux" Command="./MayaLiveLinkPlugin2017" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/paul/Dev/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe MayaLiveLinkPlugin2017 Linux Development -project="/home/paul/Documents/Unreal Projects/FCLVehicle/FCLVehicle.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe MayaLiveLinkPlugin2017 Linux Development -project="/home/paul/Documents/Unreal Projects/FCLVehicle/FCLVehicle.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe MayaLiveLinkPlugin2017 Linux Development -project="/home/paul/Documents/Unreal Projects/FCLVehicle/FCLVehicle.uproject" -clean
+mono UnrealBuildTool.exe MayaLiveLinkPlugin2017 Linux Development -project="/home/paul/Documents/Unreal Projects/FCLVehicle/FCLVehicle.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="Shipping">
+      <General WorkingDirectory="/home/paul/Dev/UnrealEngine/Engine/Binaries/Linux" Command="./MayaLiveLinkPlugin2017-Linux-Shipping" />
+      <General WorkingDirectory="/home/paul/Dev/UnrealEngine/Engine/Binaries/Linux" Command="./MayaLiveLinkPlugin2017-Linux-Shipping" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/paul/Dev/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe MayaLiveLinkPlugin2017 Linux Shipping -project="/home/paul/Documents/Unreal Projects/FCLVehicle/FCLVehicle.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe MayaLiveLinkPlugin2017 Linux Shipping -project="/home/paul/Documents/Unreal Projects/FCLVehicle/FCLVehicle.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe MayaLiveLinkPlugin2017 Linux Shipping -project="/home/paul/Documents/Unreal Projects/FCLVehicle/FCLVehicle.uproject" -clean
+mono UnrealBuildTool.exe MayaLiveLinkPlugin2017 Linux Shipping -project="/home/paul/Documents/Unreal Projects/FCLVehicle/FCLVehicle.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="Test">
+      <General WorkingDirectory="/home/paul/Dev/UnrealEngine/Engine/Binaries/Linux" Command="./MayaLiveLinkPlugin2017-Linux-Test" />
+      <General WorkingDirectory="/home/paul/Dev/UnrealEngine/Engine/Binaries/Linux" Command="./MayaLiveLinkPlugin2017-Linux-Test" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/paul/Dev/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe MayaLiveLinkPlugin2017 Linux Test -project="/home/paul/Documents/Unreal Projects/FCLVehicle/FCLVehicle.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe MayaLiveLinkPlugin2017 Linux Test -project="/home/paul/Documents/Unreal Projects/FCLVehicle/FCLVehicle.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe MayaLiveLinkPlugin2017 Linux Test -project="/home/paul/Documents/Unreal Projects/FCLVehicle/FCLVehicle.uproject" -clean
+mono UnrealBuildTool.exe MayaLiveLinkPlugin2017 Linux Test -project="/home/paul/Documents/Unreal Projects/FCLVehicle/FCLVehicle.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <GlobalSettings />
+  </Settings>
+  <GlobalSettings />
+</CodeLite_Project>

@@ -1,0 +1,11 @@
+{
+	"files.exclude": {
+		"/home/paul/Documents/Unreal Projects/FCLVehicle/.idea": true,
+		"/home/paul/Documents/Unreal Projects/FCLVehicle/.kdev4": true,
+		"/home/paul/Documents/Unreal Projects/FCLVehicle/.vscode": true,
+		"/home/paul/Documents/Unreal Projects/FCLVehicle/Content": true,
+		"/home/paul/Documents/Unreal Projects/FCLVehicle/DerivedDataCache": true,
+		"/home/paul/Documents/Unreal Projects/FCLVehicle/Intermediate": true,
+		"/home/paul/Documents/Unreal Projects/FCLVehicle/Saved": true
+	}
+}

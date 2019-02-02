@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeLite_Project Name="ShaderCompileWorker">
+  <File Name="/home/paul/Dev/UnrealEngine/Engine/Source/Programs/ShaderCompileWorker/ShaderCompileWorker.Target.cs" />
+  <VirtualDirectory Name="Config">
+    <File Name="/home/paul/Dev/UnrealEngine/Engine/Programs/ShaderCompileWorker/Config/DefaultEngine.ini" />
+    <VirtualDirectory Name="Mac">
+      <File Name="/home/paul/Dev/UnrealEngine/Engine/Programs/ShaderCompileWorker/Config/Mac/MacEngine.ini" />
+    </VirtualDirectory>
+  </VirtualDirectory>
+  <File Name="/home/paul/Dev/UnrealEngine/Engine/Source/Programs/ShaderCompileWorker/ShaderCompileWorker.Build.cs" />
+  <VirtualDirectory Name="Private">
+    <File Name="/home/paul/Dev/UnrealEngine/Engine/Source/Programs/ShaderCompileWorker/Private/ShaderCompileWorker.cpp" />
+    <File Name="/home/paul/Dev/UnrealEngine/Engine/Source/Programs/ShaderCompileWorker/Private/XGEControlWorker.cpp" />
+  </VirtualDirectory>
+  <VirtualDirectory Name="Resources">
+    <File Name="/home/paul/Dev/UnrealEngine/Engine/Source/Programs/ShaderCompileWorker/Resources/resource.h" />
+  </VirtualDirectory>
+  <Settings>
+    <Configuration Name="Debug">
+      <General WorkingDirectory="/home/paul/Dev/UnrealEngine/Engine/Binaries/Linux" Command="./ShaderCompileWorker-Linux-Debug" />
+      <General WorkingDirectory="/home/paul/Dev/UnrealEngine/Engine/Binaries/Linux" Command="./ShaderCompileWorker-Linux-Debug" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/paul/Dev/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe ShaderCompileWorker Linux Debug -project="/home/paul/Documents/Unreal Projects/FCLVehicle/FCLVehicle.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe ShaderCompileWorker Linux Debug -project="/home/paul/Documents/Unreal Projects/FCLVehicle/FCLVehicle.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe ShaderCompileWorker Linux Debug -project="/home/paul/Documents/Unreal Projects/FCLVehicle/FCLVehicle.uproject" -clean
+mono UnrealBuildTool.exe ShaderCompileWorker Linux Debug -project="/home/paul/Documents/Unreal Projects/FCLVehicle/FCLVehicle.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="DebugGame">
+      <General WorkingDirectory="/home/paul/Dev/UnrealEngine/Engine/Binaries/Linux" Command="./ShaderCompileWorker-Linux-DebugGame" />
+      <General WorkingDirectory="/home/paul/Dev/UnrealEngine/Engine/Binaries/Linux" Command="./ShaderCompileWorker-Linux-DebugGame" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/paul/Dev/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe ShaderCompileWorker Linux DebugGame -project="/home/paul/Documents/Unreal Projects/FCLVehicle/FCLVehicle.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe ShaderCompileWorker Linux DebugGame -project="/home/paul/Documents/Unreal Projects/FCLVehicle/FCLVehicle.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe ShaderCompileWorker Linux DebugGame -project="/home/paul/Documents/Unreal Projects/FCLVehicle/FCLVehicle.uproject" -clean
+mono UnrealBuildTool.exe ShaderCompileWorker Linux DebugGame -project="/home/paul/Documents/Unreal Projects/FCLVehicle/FCLVehicle.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="Development">
+      <General WorkingDirectory="/home/paul/Dev/UnrealEngine/Engine/Binaries/Linux" Command="./ShaderCompileWorker" />
+      <General WorkingDirectory="/home/paul/Dev/UnrealEngine/Engine/Binaries/Linux" Command="./ShaderCompileWorker" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/paul/Dev/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe ShaderCompileWorker Linux Development -project="/home/paul/Documents/Unreal Projects/FCLVehicle/FCLVehicle.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe ShaderCompileWorker Linux Development -project="/home/paul/Documents/Unreal Projects/FCLVehicle/FCLVehicle.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe ShaderCompileWorker Linux Development -project="/home/paul/Documents/Unreal Projects/FCLVehicle/FCLVehicle.uproject" -clean
+mono UnrealBuildTool.exe ShaderCompileWorker Linux Development -project="/home/paul/Documents/Unreal Projects/FCLVehicle/FCLVehicle.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="Shipping">
+      <General WorkingDirectory="/home/paul/Dev/UnrealEngine/Engine/Binaries/Linux" Command="./ShaderCompileWorker-Linux-Shipping" />
+      <General WorkingDirectory="/home/paul/Dev/UnrealEngine/Engine/Binaries/Linux" Command="./ShaderCompileWorker-Linux-Shipping" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/paul/Dev/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe ShaderCompileWorker Linux Shipping -project="/home/paul/Documents/Unreal Projects/FCLVehicle/FCLVehicle.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe ShaderCompileWorker Linux Shipping -project="/home/paul/Documents/Unreal Projects/FCLVehicle/FCLVehicle.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe ShaderCompileWorker Linux Shipping -project="/home/paul/Documents/Unreal Projects/FCLVehicle/FCLVehicle.uproject" -clean
+mono UnrealBuildTool.exe ShaderCompileWorker Linux Shipping -project="/home/paul/Documents/Unreal Projects/FCLVehicle/FCLVehicle.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="Test">
+      <General WorkingDirectory="/home/paul/Dev/UnrealEngine/Engine/Binaries/Linux" Command="./ShaderCompileWorker-Linux-Test" />
+      <General WorkingDirectory="/home/paul/Dev/UnrealEngine/Engine/Binaries/Linux" Command="./ShaderCompileWorker-Linux-Test" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/paul/Dev/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe ShaderCompileWorker Linux Test -project="/home/paul/Documents/Unreal Projects/FCLVehicle/FCLVehicle.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe ShaderCompileWorker Linux Test -project="/home/paul/Documents/Unreal Projects/FCLVehicle/FCLVehicle.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe ShaderCompileWorker Linux Test -project="/home/paul/Documents/Unreal Projects/FCLVehicle/FCLVehicle.uproject" -clean
+mono UnrealBuildTool.exe ShaderCompileWorker Linux Test -project="/home/paul/Documents/Unreal Projects/FCLVehicle/FCLVehicle.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <GlobalSettings />
+  </Settings>
+  <GlobalSettings />
+</CodeLite_Project>

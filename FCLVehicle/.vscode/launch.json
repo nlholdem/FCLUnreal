@@ -1,0 +1,106 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "FCLVehicle (Debug)",
+			"request": "launch",
+			"preLaunchTask": "FCLVehicle Linux Debug Build",
+			"program": "/home/paul/Documents/Unreal Projects/FCLVehicle/Binaries/Linux/FCLVehicle-Linux-Debug",
+			"args": [
+			],
+			"cwd": "/home/paul/Dev/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "FCLVehicle (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "FCLVehicle Linux DebugGame Build",
+			"program": "/home/paul/Documents/Unreal Projects/FCLVehicle/Binaries/Linux/FCLVehicle-Linux-DebugGame",
+			"args": [
+			],
+			"cwd": "/home/paul/Dev/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "FCLVehicle (Development)",
+			"request": "launch",
+			"preLaunchTask": "FCLVehicle Linux Development Build",
+			"program": "/home/paul/Documents/Unreal Projects/FCLVehicle/Binaries/Linux/FCLVehicle",
+			"args": [
+			],
+			"cwd": "/home/paul/Dev/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "FCLVehicle (Shipping)",
+			"request": "launch",
+			"preLaunchTask": "FCLVehicle Linux Shipping Build",
+			"program": "/home/paul/Documents/Unreal Projects/FCLVehicle/Binaries/Linux/FCLVehicle-Linux-Shipping",
+			"args": [
+			],
+			"cwd": "/home/paul/Dev/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "FCLVehicle (Test)",
+			"request": "launch",
+			"preLaunchTask": "FCLVehicle Linux Test Build",
+			"program": "/home/paul/Documents/Unreal Projects/FCLVehicle/Binaries/Linux/FCLVehicle-Linux-Test",
+			"args": [
+			],
+			"cwd": "/home/paul/Dev/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "FCLVehicleEditor (Debug)",
+			"request": "launch",
+			"preLaunchTask": "FCLVehicleEditor Linux Debug Build",
+			"program": "/home/paul/Dev/UnrealEngine/Engine/Binaries/Linux/UE4Editor-Linux-Debug",
+			"args": [
+				"/home/paul/Documents/Unreal Projects/FCLVehicle/FCLVehicle.uproject",
+				"-debug"
+			],
+			"cwd": "/home/paul/Dev/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "FCLVehicleEditor (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "FCLVehicleEditor Linux DebugGame Build",
+			"program": "/home/paul/Dev/UnrealEngine/Engine/Binaries/Linux/UE4Editor",
+			"args": [
+				"/home/paul/Documents/Unreal Projects/FCLVehicle/FCLVehicle.uproject",
+				"-debug"
+			],
+			"cwd": "/home/paul/Dev/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "FCLVehicleEditor (Development)",
+			"request": "launch",
+			"preLaunchTask": "FCLVehicleEditor Linux Development Build",
+			"program": "/home/paul/Dev/UnrealEngine/Engine/Binaries/Linux/UE4Editor",
+			"args": [
+				"/home/paul/Documents/Unreal Projects/FCLVehicle/FCLVehicle.uproject"
+			],
+			"cwd": "/home/paul/Dev/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "Generate Project Files",
+			"type": "mono",
+			"request": "launch",
+			"program": "/home/paul/Dev/UnrealEngine/Engine/Binaries/DotNET/UnrealBuildTool.exe",
+			"console": "internalConsole",
+			"args": [
+				"-projectfiles",
+				"-vscode",
+				"-project=\"/home/paul/Documents/Unreal Projects/FCLVehicle/FCLVehicle.uproject\"",
+				"-game",
+				"-engine"
+			],
+			"internalConsoleOptions": "openOnSessionStart",
+			"cwd": "/home/paul/Dev/UnrealEngine"
+		}
+	]
+}
