@@ -223,6 +223,47 @@ void AFCLVehiclePawn::Tick(float Delta)
 			InternalCamera->RelativeRotation = HeadRotation;
 		}
 	}
+	UE_LOG(LogTemp, Warning, TEXT("*** TICK ***"));
+
+	// Camera capture code
+	Texture2D = RenderTarget->ConstructTexture2D(this, FString("Tex2D"), EObjectFlags::RF_NoFlags);
+	Texture2D->UpdateResource();
+	int xx = Texture2D->GetSizeX();
+	int yy = Texture2D->GetSizeY();
+	UE_LOG(LogTemp, Warning, TEXT("Texture size: %d %d"), xx, yy);
+
+	FTexturePlatformData *Data = Texture2D->PlatformData;
+
+	EPixelFormat Format = Data->PixelFormat;
+	//format of pixel is PFloatRGBA
+
+	int size = Data->Mips[0].BulkData.GetElementSize();
+	int N = Data->Mips[0].BulkData.GetElementCount();
+
+	const void *Table = Data->Mips[0].BulkData.LockReadOnly();
+	Data->Mips[0].BulkData.Unlock();
+
+	const uint16 *Tab2 = StaticCast<const uint16*>(Table);
+	float avgRed=0.0;
+	float avgGreen=0.0;
+	float avgBlue=0.0l;
+	//Quick sanity check: show the avg pixel colour:
+	for (int i = 0; i<xx; i++)
+		for (int j = 0; j < yy; j++) {
+			int k = 4 * (i*yy + j);
+			int R = Tab2[k];
+			int G = Tab2[k + 1];
+			int B = Tab2[k + 2];
+			int A = Tab2[k + 3];
+			avgRed += (float)R / (256.0 * (float)xx * (float)yy);
+			avgGreen += (float)G / (256.0 * (float)xx * (float)yy);
+			avgBlue += (float)B / (256.0 * (float)xx * (float)yy);
+		}
+	UE_LOG(LogTemp, Warning, TEXT("avgRed: %f avgGreen %f avgBlue: %f"), avgRed, avgGreen, avgBlue);
+
+//	GLog->Logf(TEXT("avgRed: %f avgGreen: %f avgBlue: %f "), avgRed, avgGreen, avgBlue);
+
+
 }
 
 void AFCLVehiclePawn::BeginPlay()
@@ -231,7 +272,6 @@ void AFCLVehiclePawn::BeginPlay()
 
 	int X = RenderTarget->GetSurfaceHeight();
 	int Y = RenderTarget->GetSurfaceWidth();
-	GLog->Logf(TEXT("Size: %d %d"), X, Y);
 	Texture2D = RenderTarget->ConstructTexture2D(this, FString("Tex2D"), EObjectFlags::RF_NoFlags);
 
 
