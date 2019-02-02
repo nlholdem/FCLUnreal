@@ -29,7 +29,6 @@ const FName AFCLVehiclePawn::LookRightBinding("LookRight");
 
 AFCLVehiclePawn::AFCLVehiclePawn()
 {
-	UE_LOG(LogTemp, Warning, TEXT("*** Constructing FCL_VehiclePawn!!"));
 
 
 	// Car mesh
@@ -119,6 +118,11 @@ AFCLVehiclePawn::AFCLVehiclePawn()
 	GearDisplayColor = FColor(255, 255, 255, 255);
 
 	bInReverseGear = false;
+
+	// set the render target to point to the correct texture
+	ConstructorHelpers::FObjectFinder<UTextureRenderTarget2D> RenderTargetAsset(TEXT("/Game/Textures/CameraFeed"));
+	RenderTarget = RenderTargetAsset.Object;
+
 }
 
 void AFCLVehiclePawn::SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent)
@@ -224,6 +228,12 @@ void AFCLVehiclePawn::Tick(float Delta)
 void AFCLVehiclePawn::BeginPlay()
 {
 	Super::BeginPlay();
+
+	int X = RenderTarget->GetSurfaceHeight();
+	int Y = RenderTarget->GetSurfaceWidth();
+	GLog->Logf(TEXT("Size: %d %d"), X, Y);
+	Texture2D = RenderTarget->ConstructTexture2D(this, FString("Tex2D"), EObjectFlags::RF_NoFlags);
+
 
 	bool bEnableInCar = false;
 #if HMD_MODULE_INCLUDED

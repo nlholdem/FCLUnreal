@@ -4,6 +4,8 @@
 
 #include "CoreMinimal.h"
 #include "WheeledVehicle.h"
+#include "Runtime/Engine/Classes/Components/SceneCaptureComponent2D.h"
+#include "Runtime/Engine/Classes/Engine/TextureRenderTarget2D.h"
 #include "FCLVehiclePawn.generated.h"
 
 class UCameraComponent;
@@ -102,6 +104,10 @@ public:
 
 	static const FName LookUpBinding;
 	static const FName LookRightBinding;
+
+	UTextureRenderTarget2D *RenderTarget;
+	UTexture2D *Texture2D;
+
 
 private:
 	/** 
