@@ -1,0 +1,1710 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "FCLVehicle Mac Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FCLVehicle",
+				"Mac",
+				"Debug",
+				"'/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject'",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/usr/local/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "FCLVehicle Mac Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FCLVehicle",
+				"Mac",
+				"Debug",
+				"'/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject'",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FCLVehicle Mac Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/usr/local/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "FCLVehicle Mac Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FCLVehicle",
+				"Mac",
+				"Debug",
+				"'/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject'",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/usr/local/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "FCLVehicle Mac DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FCLVehicle",
+				"Mac",
+				"DebugGame",
+				"'/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject'",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/usr/local/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "FCLVehicle Mac DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FCLVehicle",
+				"Mac",
+				"DebugGame",
+				"'/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject'",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FCLVehicle Mac DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/usr/local/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "FCLVehicle Mac DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FCLVehicle",
+				"Mac",
+				"DebugGame",
+				"'/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject'",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/usr/local/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "FCLVehicle Mac Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FCLVehicle",
+				"Mac",
+				"Development",
+				"'/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject'",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/usr/local/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "FCLVehicle Mac Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FCLVehicle",
+				"Mac",
+				"Development",
+				"'/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject'",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FCLVehicle Mac Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/usr/local/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "FCLVehicle Mac Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FCLVehicle",
+				"Mac",
+				"Development",
+				"'/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject'",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/usr/local/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "FCLVehicle Mac Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FCLVehicle",
+				"Mac",
+				"Shipping",
+				"'/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject'",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/usr/local/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "FCLVehicle Mac Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FCLVehicle",
+				"Mac",
+				"Shipping",
+				"'/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject'",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FCLVehicle Mac Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/usr/local/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "FCLVehicle Mac Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FCLVehicle",
+				"Mac",
+				"Shipping",
+				"'/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject'",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/usr/local/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "FCLVehicle Mac Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FCLVehicle",
+				"Mac",
+				"Test",
+				"'/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject'",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/usr/local/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "FCLVehicle Mac Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FCLVehicle",
+				"Mac",
+				"Test",
+				"'/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject'",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FCLVehicle Mac Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/usr/local/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "FCLVehicle Mac Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FCLVehicle",
+				"Mac",
+				"Test",
+				"'/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject'",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/usr/local/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "FCLVehicle IOS Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FCLVehicle",
+				"IOS",
+				"Debug",
+				"'/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject'",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/usr/local/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "FCLVehicle IOS Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FCLVehicle",
+				"IOS",
+				"Debug",
+				"'/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject'",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FCLVehicle IOS Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/usr/local/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "FCLVehicle IOS Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FCLVehicle",
+				"IOS",
+				"Debug",
+				"'/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject'",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/usr/local/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "FCLVehicle IOS DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FCLVehicle",
+				"IOS",
+				"DebugGame",
+				"'/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject'",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/usr/local/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "FCLVehicle IOS DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FCLVehicle",
+				"IOS",
+				"DebugGame",
+				"'/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject'",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FCLVehicle IOS DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/usr/local/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "FCLVehicle IOS DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FCLVehicle",
+				"IOS",
+				"DebugGame",
+				"'/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject'",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/usr/local/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "FCLVehicle IOS Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FCLVehicle",
+				"IOS",
+				"Development",
+				"'/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject'",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/usr/local/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "FCLVehicle IOS Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FCLVehicle",
+				"IOS",
+				"Development",
+				"'/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject'",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FCLVehicle IOS Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/usr/local/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "FCLVehicle IOS Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FCLVehicle",
+				"IOS",
+				"Development",
+				"'/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject'",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/usr/local/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "FCLVehicle IOS Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FCLVehicle",
+				"IOS",
+				"Shipping",
+				"'/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject'",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/usr/local/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "FCLVehicle IOS Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FCLVehicle",
+				"IOS",
+				"Shipping",
+				"'/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject'",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FCLVehicle IOS Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/usr/local/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "FCLVehicle IOS Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FCLVehicle",
+				"IOS",
+				"Shipping",
+				"'/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject'",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/usr/local/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "FCLVehicle IOS Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FCLVehicle",
+				"IOS",
+				"Test",
+				"'/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject'",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/usr/local/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "FCLVehicle IOS Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FCLVehicle",
+				"IOS",
+				"Test",
+				"'/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject'",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FCLVehicle IOS Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/usr/local/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "FCLVehicle IOS Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FCLVehicle",
+				"IOS",
+				"Test",
+				"'/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject'",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/usr/local/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "FCLVehicle HTML5 Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FCLVehicle",
+				"HTML5",
+				"Debug",
+				"'/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject'",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/usr/local/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "FCLVehicle HTML5 Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FCLVehicle",
+				"HTML5",
+				"Debug",
+				"'/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject'",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FCLVehicle HTML5 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/usr/local/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "FCLVehicle HTML5 Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FCLVehicle",
+				"HTML5",
+				"Debug",
+				"'/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject'",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/usr/local/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "FCLVehicle HTML5 DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FCLVehicle",
+				"HTML5",
+				"DebugGame",
+				"'/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject'",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/usr/local/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "FCLVehicle HTML5 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FCLVehicle",
+				"HTML5",
+				"DebugGame",
+				"'/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject'",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FCLVehicle HTML5 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/usr/local/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "FCLVehicle HTML5 DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FCLVehicle",
+				"HTML5",
+				"DebugGame",
+				"'/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject'",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/usr/local/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "FCLVehicle HTML5 Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FCLVehicle",
+				"HTML5",
+				"Development",
+				"'/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject'",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/usr/local/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "FCLVehicle HTML5 Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FCLVehicle",
+				"HTML5",
+				"Development",
+				"'/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject'",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FCLVehicle HTML5 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/usr/local/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "FCLVehicle HTML5 Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FCLVehicle",
+				"HTML5",
+				"Development",
+				"'/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject'",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/usr/local/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "FCLVehicle HTML5 Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FCLVehicle",
+				"HTML5",
+				"Shipping",
+				"'/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject'",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/usr/local/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "FCLVehicle HTML5 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FCLVehicle",
+				"HTML5",
+				"Shipping",
+				"'/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject'",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FCLVehicle HTML5 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/usr/local/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "FCLVehicle HTML5 Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FCLVehicle",
+				"HTML5",
+				"Shipping",
+				"'/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject'",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/usr/local/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "FCLVehicle HTML5 Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FCLVehicle",
+				"HTML5",
+				"Test",
+				"'/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject'",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/usr/local/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "FCLVehicle HTML5 Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FCLVehicle",
+				"HTML5",
+				"Test",
+				"'/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject'",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FCLVehicle HTML5 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/usr/local/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "FCLVehicle HTML5 Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FCLVehicle",
+				"HTML5",
+				"Test",
+				"'/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject'",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/usr/local/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "FCLVehicle Linux Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FCLVehicle",
+				"Linux",
+				"Debug",
+				"'/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject'",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/usr/local/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "FCLVehicle Linux Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FCLVehicle",
+				"Linux",
+				"Debug",
+				"'/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject'",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FCLVehicle Linux Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/usr/local/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "FCLVehicle Linux Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FCLVehicle",
+				"Linux",
+				"Debug",
+				"'/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject'",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/usr/local/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "FCLVehicle Linux DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FCLVehicle",
+				"Linux",
+				"DebugGame",
+				"'/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject'",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/usr/local/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "FCLVehicle Linux DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FCLVehicle",
+				"Linux",
+				"DebugGame",
+				"'/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject'",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FCLVehicle Linux DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/usr/local/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "FCLVehicle Linux DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FCLVehicle",
+				"Linux",
+				"DebugGame",
+				"'/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject'",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/usr/local/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "FCLVehicle Linux Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FCLVehicle",
+				"Linux",
+				"Development",
+				"'/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject'",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/usr/local/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "FCLVehicle Linux Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FCLVehicle",
+				"Linux",
+				"Development",
+				"'/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject'",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FCLVehicle Linux Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/usr/local/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "FCLVehicle Linux Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FCLVehicle",
+				"Linux",
+				"Development",
+				"'/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject'",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/usr/local/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "FCLVehicle Linux Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FCLVehicle",
+				"Linux",
+				"Shipping",
+				"'/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject'",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/usr/local/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "FCLVehicle Linux Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FCLVehicle",
+				"Linux",
+				"Shipping",
+				"'/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject'",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FCLVehicle Linux Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/usr/local/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "FCLVehicle Linux Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FCLVehicle",
+				"Linux",
+				"Shipping",
+				"'/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject'",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/usr/local/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "FCLVehicle Linux Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FCLVehicle",
+				"Linux",
+				"Test",
+				"'/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject'",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/usr/local/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "FCLVehicle Linux Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FCLVehicle",
+				"Linux",
+				"Test",
+				"'/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject'",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FCLVehicle Linux Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/usr/local/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "FCLVehicle Linux Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FCLVehicle",
+				"Linux",
+				"Test",
+				"'/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject'",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/usr/local/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "FCLVehicle TVOS Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FCLVehicle",
+				"TVOS",
+				"Debug",
+				"'/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject'",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/usr/local/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "FCLVehicle TVOS Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FCLVehicle",
+				"TVOS",
+				"Debug",
+				"'/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject'",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FCLVehicle TVOS Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/usr/local/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "FCLVehicle TVOS Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FCLVehicle",
+				"TVOS",
+				"Debug",
+				"'/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject'",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/usr/local/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "FCLVehicle TVOS DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FCLVehicle",
+				"TVOS",
+				"DebugGame",
+				"'/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject'",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/usr/local/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "FCLVehicle TVOS DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FCLVehicle",
+				"TVOS",
+				"DebugGame",
+				"'/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject'",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FCLVehicle TVOS DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/usr/local/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "FCLVehicle TVOS DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FCLVehicle",
+				"TVOS",
+				"DebugGame",
+				"'/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject'",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/usr/local/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "FCLVehicle TVOS Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FCLVehicle",
+				"TVOS",
+				"Development",
+				"'/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject'",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/usr/local/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "FCLVehicle TVOS Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FCLVehicle",
+				"TVOS",
+				"Development",
+				"'/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject'",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FCLVehicle TVOS Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/usr/local/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "FCLVehicle TVOS Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FCLVehicle",
+				"TVOS",
+				"Development",
+				"'/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject'",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/usr/local/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "FCLVehicle TVOS Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FCLVehicle",
+				"TVOS",
+				"Shipping",
+				"'/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject'",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/usr/local/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "FCLVehicle TVOS Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FCLVehicle",
+				"TVOS",
+				"Shipping",
+				"'/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject'",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FCLVehicle TVOS Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/usr/local/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "FCLVehicle TVOS Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FCLVehicle",
+				"TVOS",
+				"Shipping",
+				"'/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject'",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/usr/local/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "FCLVehicle TVOS Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FCLVehicle",
+				"TVOS",
+				"Test",
+				"'/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject'",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/usr/local/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "FCLVehicle TVOS Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FCLVehicle",
+				"TVOS",
+				"Test",
+				"'/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject'",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FCLVehicle TVOS Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/usr/local/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "FCLVehicle TVOS Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FCLVehicle",
+				"TVOS",
+				"Test",
+				"'/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject'",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/usr/local/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "FCLVehicleEditor Linux Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FCLVehicleEditor",
+				"Linux",
+				"Debug",
+				"'/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject'",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/usr/local/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "FCLVehicleEditor Linux Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FCLVehicleEditor",
+				"Linux",
+				"Debug",
+				"'/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject'",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FCLVehicleEditor Linux Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/usr/local/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "FCLVehicleEditor Linux Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FCLVehicleEditor",
+				"Linux",
+				"Debug",
+				"'/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject'",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/usr/local/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "FCLVehicleEditor Linux DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FCLVehicleEditor",
+				"Linux",
+				"DebugGame",
+				"'/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject'",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/usr/local/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "FCLVehicleEditor Linux DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FCLVehicleEditor",
+				"Linux",
+				"DebugGame",
+				"'/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject'",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FCLVehicleEditor Linux DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/usr/local/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "FCLVehicleEditor Linux DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FCLVehicleEditor",
+				"Linux",
+				"DebugGame",
+				"'/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject'",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/usr/local/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "FCLVehicleEditor Linux Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FCLVehicleEditor",
+				"Linux",
+				"Development",
+				"'/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject'",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/usr/local/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "FCLVehicleEditor Linux Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FCLVehicleEditor",
+				"Linux",
+				"Development",
+				"'/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject'",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FCLVehicleEditor Linux Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/usr/local/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "FCLVehicleEditor Linux Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FCLVehicleEditor",
+				"Linux",
+				"Development",
+				"'/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject'",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/usr/local/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "FCLVehicleEditor Mac Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FCLVehicleEditor",
+				"Mac",
+				"Debug",
+				"'/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject'",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/usr/local/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "FCLVehicleEditor Mac Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FCLVehicleEditor",
+				"Mac",
+				"Debug",
+				"'/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject'",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FCLVehicleEditor Mac Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/usr/local/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "FCLVehicleEditor Mac Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FCLVehicleEditor",
+				"Mac",
+				"Debug",
+				"'/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject'",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/usr/local/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "FCLVehicleEditor Mac DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FCLVehicleEditor",
+				"Mac",
+				"DebugGame",
+				"'/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject'",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/usr/local/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "FCLVehicleEditor Mac DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FCLVehicleEditor",
+				"Mac",
+				"DebugGame",
+				"'/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject'",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FCLVehicleEditor Mac DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/usr/local/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "FCLVehicleEditor Mac DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FCLVehicleEditor",
+				"Mac",
+				"DebugGame",
+				"'/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject'",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/usr/local/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "FCLVehicleEditor Mac Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FCLVehicleEditor",
+				"Mac",
+				"Development",
+				"'/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject'",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/usr/local/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "FCLVehicleEditor Mac Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FCLVehicleEditor",
+				"Mac",
+				"Development",
+				"'/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject'",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FCLVehicleEditor Mac Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/usr/local/src/UnrealEngine"
+			}
+		},
+		{
+			"label": "FCLVehicleEditor Mac Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FCLVehicleEditor",
+				"Mac",
+				"Development",
+				"'/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject'",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/usr/local/src/UnrealEngine"
+			}
+		}
+	]
+}

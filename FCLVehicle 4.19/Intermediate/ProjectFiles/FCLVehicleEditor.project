@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeLite_Project Name="FCLVehicleEditor">
+  <VirtualDirectory Name=" 4.19">
+    <File Name="/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject" />
+    <VirtualDirectory Name="Source">
+      <File Name="/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/Source/FCLVehicle.Target.cs" />
+      <File Name="/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/Source/FCLVehicleEditor.Target.cs" />
+      <VirtualDirectory Name="FCLVehicle">
+        <File Name="/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/Source/FCLVehicle/FCLVehicle.Build.cs" />
+        <File Name="/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/Source/FCLVehicle/FCLVehicle.cpp" />
+        <File Name="/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/Source/FCLVehicle/FCLVehicle.h" />
+        <File Name="/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/Source/FCLVehicle/FCLVehicleGameMode.cpp" />
+        <File Name="/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/Source/FCLVehicle/FCLVehicleGameMode.h" />
+        <File Name="/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/Source/FCLVehicle/FCLVehicleHud.cpp" />
+        <File Name="/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/Source/FCLVehicle/FCLVehicleHud.h" />
+        <File Name="/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/Source/FCLVehicle/FCLVehiclePawn.cpp" />
+        <File Name="/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/Source/FCLVehicle/FCLVehiclePawn.h" />
+        <File Name="/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/Source/FCLVehicle/FCLVehicleWheelFront.cpp" />
+        <File Name="/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/Source/FCLVehicle/FCLVehicleWheelFront.h" />
+        <File Name="/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/Source/FCLVehicle/FCLVehicleWheelRear.cpp" />
+        <File Name="/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/Source/FCLVehicle/FCLVehicleWheelRear.h" />
+        <File Name="/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/Source/FCLVehicle/FCLWheeledVehicle.cpp" />
+        <File Name="/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/Source/FCLVehicle/FCLWheeledVehicle.h" />
+      </VirtualDirectory>
+    </VirtualDirectory>
+    <VirtualDirectory Name="Config">
+      <File Name="/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/Config/DefaultEditor.ini" />
+      <File Name="/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/Config/DefaultEditorPerProjectUserSettings.ini" />
+      <File Name="/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/Config/DefaultEngine.ini" />
+      <File Name="/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/Config/DefaultGame.ini" />
+      <File Name="/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/Config/DefaultInput.ini" />
+    </VirtualDirectory>
+  </VirtualDirectory>
+  <Settings>
+    <Configuration Name="Debug">
+      <General CommandArguments="&quot;/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject&quot; -game -debug" WorkingDirectory="/usr/local/src/UnrealEngine/Engine/Binaries/Linux" Command="./UE4Editor-Linux-Debug" />
+      <General CommandArguments="&quot;/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject&quot; -game -debug" WorkingDirectory="/usr/local/src/UnrealEngine/Engine/Binaries/Linux" Command="./UE4Editor-Linux-Debug" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/usr/local/src/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe FCLVehicleEditor Linux Debug -project="/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe FCLVehicleEditor Linux Debug -project="/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe FCLVehicleEditor Linux Debug -project="/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject" -clean
+mono UnrealBuildTool.exe FCLVehicleEditor Linux Debug -project="/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="DebugGame">
+      <General CommandArguments="&quot;/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject&quot; -game -debug" WorkingDirectory="/usr/local/src/UnrealEngine/Engine/Binaries/Linux" Command="./UE4Editor" />
+      <General CommandArguments="&quot;/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject&quot; -game -debug" WorkingDirectory="/usr/local/src/UnrealEngine/Engine/Binaries/Linux" Command="./UE4Editor" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/usr/local/src/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe FCLVehicleEditor Linux DebugGame -project="/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe FCLVehicleEditor Linux DebugGame -project="/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe FCLVehicleEditor Linux DebugGame -project="/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject" -clean
+mono UnrealBuildTool.exe FCLVehicleEditor Linux DebugGame -project="/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="Development">
+      <General CommandArguments="&quot;/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject&quot; -game" WorkingDirectory="/usr/local/src/UnrealEngine/Engine/Binaries/Linux" Command="./UE4Editor" />
+      <General CommandArguments="&quot;/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject&quot; -game" WorkingDirectory="/usr/local/src/UnrealEngine/Engine/Binaries/Linux" Command="./UE4Editor" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/usr/local/src/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe FCLVehicleEditor Linux Development -project="/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe FCLVehicleEditor Linux Development -project="/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe FCLVehicleEditor Linux Development -project="/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject" -clean
+mono UnrealBuildTool.exe FCLVehicleEditor Linux Development -project="/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="Shipping">
+      <General CommandArguments="&quot;/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject&quot; -game" WorkingDirectory="/usr/local/src/UnrealEngine/Engine/Binaries/Linux" Command="./UE4Editor-Linux-Shipping" />
+      <General CommandArguments="&quot;/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject&quot; -game" WorkingDirectory="/usr/local/src/UnrealEngine/Engine/Binaries/Linux" Command="./UE4Editor-Linux-Shipping" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/usr/local/src/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe FCLVehicleEditor Linux Shipping -project="/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe FCLVehicleEditor Linux Shipping -project="/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe FCLVehicleEditor Linux Shipping -project="/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject" -clean
+mono UnrealBuildTool.exe FCLVehicleEditor Linux Shipping -project="/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="Test">
+      <General CommandArguments="&quot;/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject&quot; -game" WorkingDirectory="/usr/local/src/UnrealEngine/Engine/Binaries/Linux" Command="./UE4Editor-Linux-Test" />
+      <General CommandArguments="&quot;/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject&quot; -game" WorkingDirectory="/usr/local/src/UnrealEngine/Engine/Binaries/Linux" Command="./UE4Editor-Linux-Test" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/usr/local/src/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe FCLVehicleEditor Linux Test -project="/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe FCLVehicleEditor Linux Test -project="/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe FCLVehicleEditor Linux Test -project="/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject" -clean
+mono UnrealBuildTool.exe FCLVehicleEditor Linux Test -project="/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <GlobalSettings />
+  </Settings>
+  <GlobalSettings />
+</CodeLite_Project>

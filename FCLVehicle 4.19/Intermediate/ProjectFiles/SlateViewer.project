@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeLite_Project Name="SlateViewer">
+  <File Name="/usr/local/src/UnrealEngine/Engine/Source/Programs/SlateViewer/SlateViewer.Target.cs" />
+  <File Name="/usr/local/src/UnrealEngine/Engine/Source/Programs/SlateViewer/SlateViewer.Build.cs" />
+  <VirtualDirectory Name="Private">
+    <File Name="/usr/local/src/UnrealEngine/Engine/Source/Programs/SlateViewer/Private/SlateViewerApp.cpp" />
+    <VirtualDirectory Name="IOS">
+      <File Name="/usr/local/src/UnrealEngine/Engine/Source/Programs/SlateViewer/Private/IOS/IOSSlateViewerMain.cpp" />
+    </VirtualDirectory>
+    <VirtualDirectory Name="Linux">
+      <File Name="/usr/local/src/UnrealEngine/Engine/Source/Programs/SlateViewer/Private/Linux/SlateViewerMainLinux.cpp" />
+    </VirtualDirectory>
+    <VirtualDirectory Name="Mac">
+      <File Name="/usr/local/src/UnrealEngine/Engine/Source/Programs/SlateViewer/Private/Mac/SlateViewerMainMac.cpp" />
+    </VirtualDirectory>
+    <VirtualDirectory Name="Windows">
+      <File Name="/usr/local/src/UnrealEngine/Engine/Source/Programs/SlateViewer/Private/Windows/SlateViewerMainWindows.cpp" />
+    </VirtualDirectory>
+  </VirtualDirectory>
+  <VirtualDirectory Name="Public">
+    <File Name="/usr/local/src/UnrealEngine/Engine/Source/Programs/SlateViewer/Public/SlateViewer.h" />
+    <File Name="/usr/local/src/UnrealEngine/Engine/Source/Programs/SlateViewer/Public/SlateViewerApp.h" />
+  </VirtualDirectory>
+  <Settings>
+    <Configuration Name="Debug">
+      <General WorkingDirectory="/usr/local/src/UnrealEngine/Engine/Binaries/Linux" Command="./SlateViewer-Linux-Debug" />
+      <General WorkingDirectory="/usr/local/src/UnrealEngine/Engine/Binaries/Linux" Command="./SlateViewer-Linux-Debug" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/usr/local/src/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe SlateViewer Linux Debug -project="/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe SlateViewer Linux Debug -project="/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe SlateViewer Linux Debug -project="/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject" -clean
+mono UnrealBuildTool.exe SlateViewer Linux Debug -project="/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="DebugGame">
+      <General WorkingDirectory="/usr/local/src/UnrealEngine/Engine/Binaries/Linux" Command="./SlateViewer-Linux-DebugGame" />
+      <General WorkingDirectory="/usr/local/src/UnrealEngine/Engine/Binaries/Linux" Command="./SlateViewer-Linux-DebugGame" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/usr/local/src/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe SlateViewer Linux DebugGame -project="/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe SlateViewer Linux DebugGame -project="/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe SlateViewer Linux DebugGame -project="/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject" -clean
+mono UnrealBuildTool.exe SlateViewer Linux DebugGame -project="/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="Development">
+      <General WorkingDirectory="/usr/local/src/UnrealEngine/Engine/Binaries/Linux" Command="./SlateViewer" />
+      <General WorkingDirectory="/usr/local/src/UnrealEngine/Engine/Binaries/Linux" Command="./SlateViewer" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/usr/local/src/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe SlateViewer Linux Development -project="/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe SlateViewer Linux Development -project="/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe SlateViewer Linux Development -project="/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject" -clean
+mono UnrealBuildTool.exe SlateViewer Linux Development -project="/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="Shipping">
+      <General WorkingDirectory="/usr/local/src/UnrealEngine/Engine/Binaries/Linux" Command="./SlateViewer-Linux-Shipping" />
+      <General WorkingDirectory="/usr/local/src/UnrealEngine/Engine/Binaries/Linux" Command="./SlateViewer-Linux-Shipping" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/usr/local/src/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe SlateViewer Linux Shipping -project="/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe SlateViewer Linux Shipping -project="/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe SlateViewer Linux Shipping -project="/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject" -clean
+mono UnrealBuildTool.exe SlateViewer Linux Shipping -project="/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="Test">
+      <General WorkingDirectory="/usr/local/src/UnrealEngine/Engine/Binaries/Linux" Command="./SlateViewer-Linux-Test" />
+      <General WorkingDirectory="/usr/local/src/UnrealEngine/Engine/Binaries/Linux" Command="./SlateViewer-Linux-Test" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/usr/local/src/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe SlateViewer Linux Test -project="/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe SlateViewer Linux Test -project="/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe SlateViewer Linux Test -project="/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject" -clean
+mono UnrealBuildTool.exe SlateViewer Linux Test -project="/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <GlobalSettings />
+  </Settings>
+  <GlobalSettings />
+</CodeLite_Project>

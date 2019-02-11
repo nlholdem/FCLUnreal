@@ -1,0 +1,10 @@
+{
+	"files.exclude": {
+		"/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/.idea": true,
+		"/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/.kdev4": true,
+		"/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/.vscode": true,
+		"/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/Content": true,
+		"/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/Intermediate": true,
+		"/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/Saved": true
+	}
+}

@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeLite_Project Name="UnrealVersionSelector">
+  <File Name="/usr/local/src/UnrealEngine/Engine/Source/Programs/UnrealVersionSelector/UnrealVersionSelector.Target.cs" />
+  <File Name="/usr/local/src/UnrealEngine/Engine/Source/Programs/UnrealVersionSelector/UnrealVersionSelector.Build.cs" />
+  <VirtualDirectory Name="Private">
+    <File Name="/usr/local/src/UnrealEngine/Engine/Source/Programs/UnrealVersionSelector/Private/PlatformInstallation.cpp" />
+    <File Name="/usr/local/src/UnrealEngine/Engine/Source/Programs/UnrealVersionSelector/Private/PlatformInstallation.h" />
+    <File Name="/usr/local/src/UnrealEngine/Engine/Source/Programs/UnrealVersionSelector/Private/UnrealVersionSelector.cpp" />
+    <File Name="/usr/local/src/UnrealEngine/Engine/Source/Programs/UnrealVersionSelector/Private/UnrealVersionSelector.h" />
+    <VirtualDirectory Name="GenericPlatform">
+      <File Name="/usr/local/src/UnrealEngine/Engine/Source/Programs/UnrealVersionSelector/Private/GenericPlatform/GenericPlatformInstallation.cpp" />
+      <File Name="/usr/local/src/UnrealEngine/Engine/Source/Programs/UnrealVersionSelector/Private/GenericPlatform/GenericPlatformInstallation.h" />
+    </VirtualDirectory>
+    <VirtualDirectory Name="Windows">
+      <File Name="/usr/local/src/UnrealEngine/Engine/Source/Programs/UnrealVersionSelector/Private/Windows/WindowsPlatformInstallation.cpp" />
+      <File Name="/usr/local/src/UnrealEngine/Engine/Source/Programs/UnrealVersionSelector/Private/Windows/WindowsPlatformInstallation.h" />
+      <VirtualDirectory Name="Resources">
+        <File Name="/usr/local/src/UnrealEngine/Engine/Source/Programs/UnrealVersionSelector/Private/Windows/Resources/Resource.h" />
+      </VirtualDirectory>
+    </VirtualDirectory>
+  </VirtualDirectory>
+  <Settings>
+    <Configuration Name="Debug">
+      <General WorkingDirectory="/usr/local/src/UnrealEngine/Engine/Binaries/Linux" Command="./UnrealVersionSelector-Linux-Debug" />
+      <General WorkingDirectory="/usr/local/src/UnrealEngine/Engine/Binaries/Linux" Command="./UnrealVersionSelector-Linux-Debug" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/usr/local/src/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe UnrealVersionSelector Linux Debug -project="/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe UnrealVersionSelector Linux Debug -project="/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe UnrealVersionSelector Linux Debug -project="/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject" -clean
+mono UnrealBuildTool.exe UnrealVersionSelector Linux Debug -project="/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="DebugGame">
+      <General WorkingDirectory="/usr/local/src/UnrealEngine/Engine/Binaries/Linux" Command="./UnrealVersionSelector-Linux-DebugGame" />
+      <General WorkingDirectory="/usr/local/src/UnrealEngine/Engine/Binaries/Linux" Command="./UnrealVersionSelector-Linux-DebugGame" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/usr/local/src/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe UnrealVersionSelector Linux DebugGame -project="/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe UnrealVersionSelector Linux DebugGame -project="/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe UnrealVersionSelector Linux DebugGame -project="/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject" -clean
+mono UnrealBuildTool.exe UnrealVersionSelector Linux DebugGame -project="/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="Development">
+      <General WorkingDirectory="/usr/local/src/UnrealEngine/Engine/Binaries/Linux" Command="./UnrealVersionSelector" />
+      <General WorkingDirectory="/usr/local/src/UnrealEngine/Engine/Binaries/Linux" Command="./UnrealVersionSelector" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/usr/local/src/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe UnrealVersionSelector Linux Development -project="/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe UnrealVersionSelector Linux Development -project="/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe UnrealVersionSelector Linux Development -project="/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject" -clean
+mono UnrealBuildTool.exe UnrealVersionSelector Linux Development -project="/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="Shipping">
+      <General WorkingDirectory="/usr/local/src/UnrealEngine/Engine/Binaries/Linux" Command="./UnrealVersionSelector-Linux-Shipping" />
+      <General WorkingDirectory="/usr/local/src/UnrealEngine/Engine/Binaries/Linux" Command="./UnrealVersionSelector-Linux-Shipping" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/usr/local/src/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe UnrealVersionSelector Linux Shipping -project="/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe UnrealVersionSelector Linux Shipping -project="/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe UnrealVersionSelector Linux Shipping -project="/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject" -clean
+mono UnrealBuildTool.exe UnrealVersionSelector Linux Shipping -project="/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="Test">
+      <General WorkingDirectory="/usr/local/src/UnrealEngine/Engine/Binaries/Linux" Command="./UnrealVersionSelector-Linux-Test" />
+      <General WorkingDirectory="/usr/local/src/UnrealEngine/Engine/Binaries/Linux" Command="./UnrealVersionSelector-Linux-Test" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/usr/local/src/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe UnrealVersionSelector Linux Test -project="/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe UnrealVersionSelector Linux Test -project="/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe UnrealVersionSelector Linux Test -project="/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject" -clean
+mono UnrealBuildTool.exe UnrealVersionSelector Linux Test -project="/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <GlobalSettings />
+  </Settings>
+  <GlobalSettings />
+</CodeLite_Project>

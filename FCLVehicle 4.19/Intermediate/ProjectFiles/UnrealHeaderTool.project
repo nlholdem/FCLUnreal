@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeLite_Project Name="UnrealHeaderTool">
+  <File Name="/usr/local/src/UnrealEngine/Engine/Source/Programs/UnrealHeaderTool/UnrealHeaderTool.Target.cs" />
+  <VirtualDirectory Name="Config">
+    <File Name="/usr/local/src/UnrealEngine/Engine/Programs/UnrealHeaderTool/Config/DefaultEngine.ini" />
+  </VirtualDirectory>
+  <File Name="/usr/local/src/UnrealEngine/Engine/Source/Programs/UnrealHeaderTool/UnrealHeaderTool.Build.cs" />
+  <VirtualDirectory Name="Private">
+    <File Name="/usr/local/src/UnrealEngine/Engine/Source/Programs/UnrealHeaderTool/Private/BaseParser.cpp" />
+    <File Name="/usr/local/src/UnrealEngine/Engine/Source/Programs/UnrealHeaderTool/Private/BaseParser.h" />
+    <File Name="/usr/local/src/UnrealEngine/Engine/Source/Programs/UnrealHeaderTool/Private/ClassDeclarationMetaData.cpp" />
+    <File Name="/usr/local/src/UnrealEngine/Engine/Source/Programs/UnrealHeaderTool/Private/ClassDeclarationMetaData.h" />
+    <File Name="/usr/local/src/UnrealEngine/Engine/Source/Programs/UnrealHeaderTool/Private/ClassMaps.cpp" />
+    <File Name="/usr/local/src/UnrealEngine/Engine/Source/Programs/UnrealHeaderTool/Private/ClassMaps.h" />
+    <File Name="/usr/local/src/UnrealEngine/Engine/Source/Programs/UnrealHeaderTool/Private/Classes.cpp" />
+    <File Name="/usr/local/src/UnrealEngine/Engine/Source/Programs/UnrealHeaderTool/Private/Classes.h" />
+    <File Name="/usr/local/src/UnrealEngine/Engine/Source/Programs/UnrealHeaderTool/Private/CodeGenerator.cpp" />
+    <File Name="/usr/local/src/UnrealEngine/Engine/Source/Programs/UnrealHeaderTool/Private/FileLineException.cpp" />
+    <File Name="/usr/local/src/UnrealEngine/Engine/Source/Programs/UnrealHeaderTool/Private/FileLineException.h" />
+    <File Name="/usr/local/src/UnrealEngine/Engine/Source/Programs/UnrealHeaderTool/Private/GeneratedCodeVersion.h" />
+    <File Name="/usr/local/src/UnrealEngine/Engine/Source/Programs/UnrealHeaderTool/Private/HeaderParser.cpp" />
+    <File Name="/usr/local/src/UnrealEngine/Engine/Source/Programs/UnrealHeaderTool/Private/HeaderParser.h" />
+    <File Name="/usr/local/src/UnrealEngine/Engine/Source/Programs/UnrealHeaderTool/Private/HeaderProvider.cpp" />
+    <File Name="/usr/local/src/UnrealEngine/Engine/Source/Programs/UnrealHeaderTool/Private/HeaderProvider.h" />
+    <File Name="/usr/local/src/UnrealEngine/Engine/Source/Programs/UnrealHeaderTool/Private/IScriptGeneratorPluginInterface.cpp" />
+    <File Name="/usr/local/src/UnrealEngine/Engine/Source/Programs/UnrealHeaderTool/Private/Manifest.cpp" />
+    <File Name="/usr/local/src/UnrealEngine/Engine/Source/Programs/UnrealHeaderTool/Private/Manifest.h" />
+    <File Name="/usr/local/src/UnrealEngine/Engine/Source/Programs/UnrealHeaderTool/Private/NativeClassExporter.h" />
+    <File Name="/usr/local/src/UnrealEngine/Engine/Source/Programs/UnrealHeaderTool/Private/ParserClass.cpp" />
+    <File Name="/usr/local/src/UnrealEngine/Engine/Source/Programs/UnrealHeaderTool/Private/ParserClass.h" />
+    <File Name="/usr/local/src/UnrealEngine/Engine/Source/Programs/UnrealHeaderTool/Private/ParserHelper.cpp" />
+    <File Name="/usr/local/src/UnrealEngine/Engine/Source/Programs/UnrealHeaderTool/Private/ParserHelper.h" />
+    <File Name="/usr/local/src/UnrealEngine/Engine/Source/Programs/UnrealHeaderTool/Private/Scope.cpp" />
+    <File Name="/usr/local/src/UnrealEngine/Engine/Source/Programs/UnrealHeaderTool/Private/Scope.h" />
+    <File Name="/usr/local/src/UnrealEngine/Engine/Source/Programs/UnrealHeaderTool/Private/SimplifiedParsingClassInfo.h" />
+    <File Name="/usr/local/src/UnrealEngine/Engine/Source/Programs/UnrealHeaderTool/Private/StringUtils.cpp" />
+    <File Name="/usr/local/src/UnrealEngine/Engine/Source/Programs/UnrealHeaderTool/Private/StringUtils.h" />
+    <File Name="/usr/local/src/UnrealEngine/Engine/Source/Programs/UnrealHeaderTool/Private/UnderlyingEnumType.h" />
+    <File Name="/usr/local/src/UnrealEngine/Engine/Source/Programs/UnrealHeaderTool/Private/UnrealHeaderTool.h" />
+    <File Name="/usr/local/src/UnrealEngine/Engine/Source/Programs/UnrealHeaderTool/Private/UnrealHeaderToolGlobals.h" />
+    <File Name="/usr/local/src/UnrealEngine/Engine/Source/Programs/UnrealHeaderTool/Private/UnrealHeaderToolMain.cpp" />
+    <File Name="/usr/local/src/UnrealEngine/Engine/Source/Programs/UnrealHeaderTool/Private/UnrealSourceFile.cpp" />
+    <File Name="/usr/local/src/UnrealEngine/Engine/Source/Programs/UnrealHeaderTool/Private/UnrealSourceFile.h" />
+    <File Name="/usr/local/src/UnrealEngine/Engine/Source/Programs/UnrealHeaderTool/Private/UnrealTypeDefinitionInfo.h" />
+    <VirtualDirectory Name="Specifiers">
+      <File Name="/usr/local/src/UnrealEngine/Engine/Source/Programs/UnrealHeaderTool/Private/Specifiers/CheckedMetadataSpecifiers.h" />
+      <File Name="/usr/local/src/UnrealEngine/Engine/Source/Programs/UnrealHeaderTool/Private/Specifiers/FunctionSpecifiers.h" />
+      <File Name="/usr/local/src/UnrealEngine/Engine/Source/Programs/UnrealHeaderTool/Private/Specifiers/InterfaceSpecifiers.h" />
+      <File Name="/usr/local/src/UnrealEngine/Engine/Source/Programs/UnrealHeaderTool/Private/Specifiers/SpecifierArrays.cpp" />
+      <File Name="/usr/local/src/UnrealEngine/Engine/Source/Programs/UnrealHeaderTool/Private/Specifiers/StructSpecifiers.h" />
+      <File Name="/usr/local/src/UnrealEngine/Engine/Source/Programs/UnrealHeaderTool/Private/Specifiers/VariableSpecifiers.h" />
+    </VirtualDirectory>
+  </VirtualDirectory>
+  <VirtualDirectory Name="Public">
+    <File Name="/usr/local/src/UnrealEngine/Engine/Source/Programs/UnrealHeaderTool/Public/IScriptGeneratorPluginInterface.h" />
+  </VirtualDirectory>
+  <VirtualDirectory Name="Resources">
+    <VirtualDirectory Name="UHTDebugging">
+      <File Name="/usr/local/src/UnrealEngine/Engine/Source/Programs/UnrealHeaderTool/Resources/UHTDebugging/EnumOnlyHeader.h" />
+      <File Name="/usr/local/src/UnrealEngine/Engine/Source/Programs/UnrealHeaderTool/Resources/UHTDebugging/StructOnlyHeader.h" />
+      <File Name="/usr/local/src/UnrealEngine/Engine/Source/Programs/UnrealHeaderTool/Resources/UHTDebugging/TestDeprecatedObject.h" />
+      <File Name="/usr/local/src/UnrealEngine/Engine/Source/Programs/UnrealHeaderTool/Resources/UHTDebugging/TestInterface.h" />
+      <File Name="/usr/local/src/UnrealEngine/Engine/Source/Programs/UnrealHeaderTool/Resources/UHTDebugging/TestInterfaceObject.h" />
+      <File Name="/usr/local/src/UnrealEngine/Engine/Source/Programs/UnrealHeaderTool/Resources/UHTDebugging/TestObject.h" />
+    </VirtualDirectory>
+  </VirtualDirectory>
+  <Settings>
+    <Configuration Name="Debug">
+      <General WorkingDirectory="/usr/local/src/UnrealEngine/Engine/Binaries/Linux" Command="./UnrealHeaderTool-Linux-Debug" />
+      <General WorkingDirectory="/usr/local/src/UnrealEngine/Engine/Binaries/Linux" Command="./UnrealHeaderTool-Linux-Debug" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/usr/local/src/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe UnrealHeaderTool Linux Debug -project="/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe UnrealHeaderTool Linux Debug -project="/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe UnrealHeaderTool Linux Debug -project="/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject" -clean
+mono UnrealBuildTool.exe UnrealHeaderTool Linux Debug -project="/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="DebugGame">
+      <General WorkingDirectory="/usr/local/src/UnrealEngine/Engine/Binaries/Linux" Command="./UnrealHeaderTool-Linux-DebugGame" />
+      <General WorkingDirectory="/usr/local/src/UnrealEngine/Engine/Binaries/Linux" Command="./UnrealHeaderTool-Linux-DebugGame" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/usr/local/src/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe UnrealHeaderTool Linux DebugGame -project="/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe UnrealHeaderTool Linux DebugGame -project="/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe UnrealHeaderTool Linux DebugGame -project="/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject" -clean
+mono UnrealBuildTool.exe UnrealHeaderTool Linux DebugGame -project="/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="Development">
+      <General WorkingDirectory="/usr/local/src/UnrealEngine/Engine/Binaries/Linux" Command="./UnrealHeaderTool" />
+      <General WorkingDirectory="/usr/local/src/UnrealEngine/Engine/Binaries/Linux" Command="./UnrealHeaderTool" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/usr/local/src/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe UnrealHeaderTool Linux Development -project="/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe UnrealHeaderTool Linux Development -project="/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe UnrealHeaderTool Linux Development -project="/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject" -clean
+mono UnrealBuildTool.exe UnrealHeaderTool Linux Development -project="/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="Shipping">
+      <General WorkingDirectory="/usr/local/src/UnrealEngine/Engine/Binaries/Linux" Command="./UnrealHeaderTool-Linux-Shipping" />
+      <General WorkingDirectory="/usr/local/src/UnrealEngine/Engine/Binaries/Linux" Command="./UnrealHeaderTool-Linux-Shipping" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/usr/local/src/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe UnrealHeaderTool Linux Shipping -project="/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe UnrealHeaderTool Linux Shipping -project="/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe UnrealHeaderTool Linux Shipping -project="/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject" -clean
+mono UnrealBuildTool.exe UnrealHeaderTool Linux Shipping -project="/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="Test">
+      <General WorkingDirectory="/usr/local/src/UnrealEngine/Engine/Binaries/Linux" Command="./UnrealHeaderTool-Linux-Test" />
+      <General WorkingDirectory="/usr/local/src/UnrealEngine/Engine/Binaries/Linux" Command="./UnrealHeaderTool-Linux-Test" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/usr/local/src/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe UnrealHeaderTool Linux Test -project="/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe UnrealHeaderTool Linux Test -project="/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe UnrealHeaderTool Linux Test -project="/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject" -clean
+mono UnrealBuildTool.exe UnrealHeaderTool Linux Test -project="/home/bp1/sandbox/FCLUnreal/FCLVehicle 4.19/FCLVehicle.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <GlobalSettings />
+  </Settings>
+  <GlobalSettings />
+</CodeLite_Project>
